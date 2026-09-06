@@ -1,0 +1,15 @@
+1. What challenges did you encounter with this assignment, if any?
+
+A challenge I encountered was coming up with different test cases and thinking about whether I've written enough of them.
+
+2. What did you think about the requirements specification for this assignment?
+
+The requirements specification was not quite complete since it did not specify what the function should return for an invalid triangle, so I defaulted to returning NONE.
+
+3. What challenges did you encounter with the tools?
+
+I did not encounter any challenges with the tools since the unittest library is a built-in package and did not require any installation. The syntax of the unittest library is similar to the JUnit framework I've used before so there was little issue with syntax for writing tests.
+
+4. Describe the criteria you used to determine that you had sufficient test cases, i.e. how did you know you were done?
+
+I decided I was done when I had at least one correct and incorrect case for each type of triangle. For the test for valid triangles, I had two cases for invalid triangles because I knew that both zero and negative side lengths produced invalid triangles.
